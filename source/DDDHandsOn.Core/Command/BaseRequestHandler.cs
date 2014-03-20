@@ -24,8 +24,8 @@ namespace DDDHandsOn.Core.Command
         {
             base.BeforeHandle(request);
 
-            var identity = _context.GetCurrentUser();
-            identity.ThrowSecurityExceptionIfCantExecute<TRequest>();
+            //var identity = _context.GetCurrentUser();
+            //identity.ThrowSecurityExceptionIfCantExecute<TRequest>();
         }
 
         public override Response Handle(Request request)

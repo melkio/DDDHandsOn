@@ -7,8 +7,8 @@
     <ProjectGuid>{1F7D46A1-26E6-41EB-A8C5-E5C228021343}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bos.IO.Core</RootNamespace>
-    <AssemblyName>Bos.IO.Core</AssemblyName>
+    <RootNamespace>DDDHandsOn.Core</RootNamespace>
+    <AssemblyName>DDDHandsOn.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
