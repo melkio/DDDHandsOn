@@ -134,11 +134,14 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandHandlers\ApriReclamoCommandHandler.cs" />
     <Compile Include="CommandHandlers\EchoCommandHandler.cs" />
     <Compile Include="Commands\Echo.cs" />
+    <Compile Include="Commands\ApriReclamo.cs" />
     <Compile Include="Configuration\ConsumersRegistry.cs" />
     <Compile Include="Denormalizers\EchoReadModel.cs" />
     <Compile Include="Domain\Echo.cs" />
+    <Compile Include="Domain\Reclamo.cs" />
     <Compile Include="EchoModule.cs" />
     <Compile Include="EnvironmentBootstrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

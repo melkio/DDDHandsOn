@@ -62,6 +62,7 @@ namespace DDDHandsOn.Core.Persistence.Configuration
                                             .UsingMongoPersistence("eventStore", new DocumentObjectSerializer())
                                             .UsingSynchronousDispatchScheduler(dispatcher)
                                             .Build();
+
                             return store;
                         });
         }

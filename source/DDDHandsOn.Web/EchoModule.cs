@@ -10,6 +10,7 @@ namespace DDDHandsOn.Web
         public EchoModule(IRequestDispatcherFactory factory) 
             : base("/echo")
         {
+            // ONLY FOR DEMO PURPOSE...SHOULD BE A POST :)
             Get[""] = p => 
             {
                 using (var dispatcher = factory.CreateRequestDispatcher())
@@ -18,7 +19,6 @@ namespace DDDHandsOn.Web
                     var response = dispatcher.Get<EchoResponse>(command);
                     return response.Value;
                 }
-                
             };
         }
     }

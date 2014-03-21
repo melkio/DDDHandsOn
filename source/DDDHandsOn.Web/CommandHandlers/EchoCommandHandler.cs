@@ -23,6 +23,7 @@ namespace DDDHandsOn.Web.CommandHandlers
 
             var echo = new Echo();
             echo.Execute(request.Value);
+
             Add(echo);
 
             response.Value = request.Value;
